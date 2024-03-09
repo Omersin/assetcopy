@@ -26,8 +26,8 @@ def tarayici(klasor_yolu, hedef_url):
             except Exception as e:
                 print(f"Hata: {e}")
 
-klasor_yolu = r'D:\Web\HTML Temp\Kategorize\Kurumsal\insidehtml-10\insidehtml-10\inside\images'
-hedef_url = 'https://team90degree.com/html/tf/inside-preview/images/'
+klasor_yolu = r'D:\sitesablon\assets\images'
+hedef_url = 'https://siteadresi.com/assets/images/'
 
 tarayici(klasor_yolu, hedef_url)
 print("İşlem tamamlandı.")
